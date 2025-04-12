@@ -1,4 +1,3 @@
-// var x = 50 ;
 
 // It is Comment on One line
 
@@ -6,6 +5,8 @@
 it is multiline comment
 */
 
+
+// First Day
 // console.log("hey")
 // document.write("werwe")
 
@@ -122,4 +123,5 @@ let t = true
 
 console.log(u + w + t)
 console.log(u + +w + +t)
+
 
