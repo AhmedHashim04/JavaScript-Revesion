@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="2"> -->
+
+    <title>JavaScript Playground</title>
+
+</head>
+<body>
+    <h1>JavaScript Playground</h1>
+    <div id='jgo'> Hava Global Object</div>
+
+</body>
+<script src="js.js"></script>
+
+</html>
+
+
+<!-- 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f0f0f0;
+    }
+    #console {
+        background-color: #1e1e1e;
+        color: #fff;
+        padding: 20px;
+        height: 400px;
+        overflow-y: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    #input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .output {
+        color: #0f0;
+    }
+    .error {
+        color: #f00;
+    }
+</style> -->
+
+
+
+
+<!-- 
+<div id="console"></div>
+<input type="text" id="input" placeholder="Type JavaScript code here and press Enter...">
+
+<script>
+    const consoleDiv = document.getElementById('console');
+    const input = document.getElementById('input');
+
+    function addOutput(text, className) {
+        const p = document.createElement('p');
+        p.className = className;
+        p.textContent = text;
+        consoleDiv.appendChild(p);
+        consoleDiv.scrollTop = consoleDiv.scrollHeight;
+    }
+
+    input.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            const code = input.value;
+            addOutput('> ' + code, 'input');
+            
+            try {
+                const result = eval(code);
+                if (result !== undefined) {
+                    addOutput(result, 'output');
+                }
+            } catch (error) {
+                addOutput(error.message, 'error');
+            }
+            
+            input.value = '';
+        }
+    });
+
+    // Add welcome message
+    addOutput('Welcome to JavaScript Playground!', 'output');
+    addOutput('Type any JavaScript code and press Enter to execute it.', 'output');
+    addOutput('Examples:', 'output');
+    addOutput('> 2 + 2', 'output');
+    addOutput('> let x = 5; x * 3', 'output');
+    addOutput('> "Hello".toUpperCase()', 'output');
+</script> -->
