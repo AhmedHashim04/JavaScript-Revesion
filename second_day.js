@@ -84,5 +84,75 @@ console.log(1!='1'); //false compare value only
 console.log(1==='1'); //false compare value , type
 console.log(1!=='1'); //true compare value , type
 
-// Lesson 32 / 188
+// Lesson 33 / 188
 
+if (4+5==9)
+    console.log(44444);
+
+if (4+5==9){
+    console.log(44444);
+}
+
+
+
+if (4+5==19){
+    console.log(5555555);
+} else if (44==444){
+    console.log(66666666);
+}else{
+    console.log(777777);
+}
+
+// Lesson 34  / 188
+if (4==4){
+    console.log('first if is true')
+    if(54 ==5)
+        console.log('second if also true ')
+}
+
+// Lesson 35  / 188
+
+// (5==5) ? console.log("ternary") : console.log('itis false')
+
+let y = (5==5) ? 1000 : 10
+// console.log (y)
+let isTall = true
+
+console.log(` hey ${isTall ? 'mohammed':"ahmed"} , iknown you as you are tall`)
+
+let x = (5 == 15) ? 1000 : (10 == 10) ? 2000 : 20;
+
+console.log(x);
+
+// Lesson 36  / 188
+
+// Nullish coalescing operator
+let username = null ?? "Guest"; // "Guest"
+let number = 0 ?? 42; // 0
+let emptyString = "" ?? "Default"; // ""
+let undefinedValue = undefined ?? "Default Value"; // "Default Value"
+
+// Lesson 38  / 188
+let day = 4
+
+switch(day){
+    case 1:
+        console.log('it is first day');
+        break
+    case 2: 
+        console.log('it is second day')
+        break
+    case 3: 
+    case 4: 
+        console.log('it is three and four day')
+            break
+    case 5: 
+    case 6: //=case 5||6: 
+            console.log('it is five and six day')
+            break
+    default : //if it puted on first line after swich it won,t printed to arrive last
+        console.log("it is if all is false it printed if not break")
+        break
+    }
+    
+// Lesson 40  / 188
