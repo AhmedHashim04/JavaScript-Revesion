@@ -90,9 +90,36 @@ console.log("asdasd"+"nbvnvbnvb"+"yyyy");
 console.log(a+" "+b);
 console.log(a,b);
 
-// Lesson 15 / 188
+// Lesson 15-16-17 / 188
 console.log(a+
     " 55"+b);
 
 console.log(`Hello 
     ${x}`);
+
+// Lesson 18 / 188
+
+console.log(6+10);
+console.log(1006+'ali');
+console.log(100-'ali') //NaN
+console.log(typeof NaN) //Number !!
+// Pst and Pre that mean (printing) ++ --
+
+// Lesson 19 / 188
+console.log(+"100")//make it number
+console.log(-"100")//make it number but minus
+console.log("100")
+console.log(+"5.5")
+console.log(+"osame") //Nan
+console.log(+true) //1
+console.log(+null) //0
+console.log(Number("100")) //100
+
+// Lesson 20 / 188
+let u = 40
+let w = '9'
+let t = true
+
+console.log(u + w + t)
+console.log(u + +w + +t)
+
