@@ -1,3 +1,4 @@
+
 /*
 // Lesson 21 / 188
 let a =4;
@@ -306,7 +307,7 @@ console.log(myArray.length) //40
 // console.log(greet());               // "Hello!"
 // console.log(square(5));             // 25
 
-// Lesson 67 / 155
+// Lesson 67 / 188
 
 // let a = "from global let"
 // var b = "from global var"
@@ -325,24 +326,118 @@ console.log(myArray.length) //40
 // }
 // bye()
 
-let c = 10
+// let c = 10
 
-if (4==4) {
-    let c = 30
-    console.log(c) //30
-}
+// if (4==4) {
+//     let c = 30
+//     console.log(c) //30
+// }
 
 
-if (4==4){
-    console.log(c) }//10
+// if (4==4){
+//     console.log(c) }//10
     
-var w = 50
-if (4==4){
-    console.log(w) 
-    w = 80
-}//50
+// var w = 50
+// if (4==4){
+//     console.log(w) 
+//     w = 80
+// }//50
 
-if (8==8) {
-    console.log(w)//80
-    console.log(c)//
+// if (8==8) {
+//     console.log(w)//80
+//     console.log(c)//
+// }
+
+// Lesson 71 // 188
+
+// let array = [10,20,30,0,7]
+
+// let selfMultiple = array.map(function (num) {
+//     return num * 2
+// })
+
+// let lefthandfunc = array.map( (num) => num * 3 , 2 )
+
+// //filter like map but return array of true or false
+
+// let filter = array.filter(function (num) {
+//     return num % 2 === 0
+// })  //if num is even returned it in new array
+
+// //reduce like map but return single value not array
+// let reduce = array.reduce(function (acc, num) {
+//     return acc + num
+// }) // acc is accumulator تراكم  num is number 
+
+
+// console.log(array)
+// console.log(selfMultiple)
+// console.log(lefthandfunc)
+// console.log(filter)
+// console.log(reduce)
+
+//lesson 77 // 188
+
+// let array = [10,20,30,0,7]
+
+// array.forEach((num) => {
+//     console.log(num)
+// });
+
+
+// Lesson 79 // 188 
+
+//there are big difference between dot and bracket notation
+// let myColor = "blue"
+
+// let relegion = "islam"
+// let user = {
+//     name: "Osama",
+//     age: 38,
+//     'country of' : "Egypt",
+//     100: "hello",
+//     myColor: myColor,
+//     islam:true
+
+//     , sayHello: function() {
+//         return(`Hello ${this.name}`)
+// }
+// }
+// console.log(user.name)
+// console.log(user['country of'])
+// console.log(user.sayHello())
+// console.log(user[100])
+// console.log(user.relegion)
+// console.log(user[myColor])
+// console.log(user[relegion])
+
+// let human = new Object() // new Object() is the same as {}
+// human.name = "Osama"
+// human.age = 38
+// human["country of"] = "Egypt"
+
+// console.log(human.name)
+// console.log(human['country of'])
+
+// fourthday
+
+//revesion on object
+//lesson 79 / 188
+
+let ahmed = {
+    name: "ahmed",
+    age: 30,
+    country: "egypt",
+    'data of birth': 1996,
+    sayHello: function () {
+        return (`hello ${this.name}`)
+    }
 }
+
+console.log(ahmed.sayHello())
+console.log(ahmed["data of birth"])
+// console.log(ahmed[age]) //error
+console.log(ahmed['age']) // 30
+
+// BOM Lesson 100 / 188
+
