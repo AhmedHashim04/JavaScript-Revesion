@@ -424,20 +424,47 @@ console.log(myArray.length) //40
 //revesion on object
 //lesson 79 / 188
 
-let ahmed = {
-    name: "ahmed",
-    age: 30,
-    country: "egypt",
-    'data of birth': 1996,
-    sayHello: function () {
-        return (`hello ${this.name}`)
-    }
-}
+// let ahmed = {
+//     name: "ahmed",
+//     age: 30,
+//     country: "egypt",
+//     'data of birth': 1996,
+//     sayHello: function () {
+//         return (`hello ${this.name}`)
+//     }
+// }
 
-console.log(ahmed.sayHello())
-console.log(ahmed["data of birth"])
-// console.log(ahmed[age]) //error
-console.log(ahmed['age']) // 30
+// console.log(ahmed.sayHello())
+// console.log(ahmed["data of birth"])
+// // console.log(ahmed[age]) //error
+// console.log(ahmed['age']) // 30
 
 // BOM Lesson 100 / 188
 
+// setTimeout(() => {
+//     console.log("hello");
+// }, 500);
+
+// function sayHello() {
+//     console.log("hello2");
+// }
+
+// setTimeout(sayHello, 500);
+
+// function sayBye(name) {
+//     console.log(`Bye Bye ${name}`);
+
+// }
+
+// setTimeout(sayBye("Osama"), 10000); // Error : it will be called immediately
+// setTimeout(sayBye, 10000,"Wael"); // Error : it will be called immediately
+// setTimeout(sayBye, 400,"SAMY"); // Error : it will be called immediately
+// setTimeout(sayBye, 400,"RAMY"); // Error : it will be called immediately
+// setInterval(sayBye, 100,"musa"); // Error : it will be called immediately
+
+console.log(location.href)
+// location.href = "https://www.google.com" // redirect to google page and save it in history
+
+console.log(location.host)
+console.log(location.pathname)
+ // Lesson 109 // 188
