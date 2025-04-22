@@ -462,9 +462,40 @@ console.log(myArray.length) //40
 // setTimeout(sayBye, 400,"RAMY"); // Error : it will be called immediately
 // setInterval(sayBye, 100,"musa"); // Error : it will be called immediately
 
-console.log(location.href)
-// location.href = "https://www.google.com" // redirect to google page and save it in history
+// console.log(location.href)
+// // location.href = "https://www.google.com" // redirect to google page and save it in history
 
-console.log(location.host)
-console.log(location.pathname)
- // Lesson 109 // 188
+// console.log(location.host)
+// console.log(location.pathname)
+//  // Lesson 109 // 188
+//  window.scrollTo(400,200) //scroll to 400px from top and 200px from left
+//  window.scrollBy(400,200) //scroll by 400px from top and 200px from left but not save it in history 
+//  window.scrollX() //
+//  window.scrollY()
+
+//  window.localStorage("myname","Osama")
+//  window.sessionStorage("myname","ramy")
+//  // ++
+//  window.localStorage.getItem("myname")  
+//  window.localStorage.removeItem("myname")
+//  window.localStorage.clear()
+//  window.localStorage["myname"] = "Osama"
+
+  // Lesson 115 // 188
+
+// console.log("Osama") // Osama
+// console.log(..."Osama") // O s a m a
+// // console.log("Osama".split("")) // ["O", "s", "a", "m", "a"]
+// console.log([..."Osama"]) // ["O", "s", "a", "m", "a"]
+console.log(Array.from("Osama")) // ["O", "s", "a", "m", "a"]
+let o = Array.from("Osama")
+let setFromArray = new Set(o)
+console.log(setFromArray)
+console.log([...setFromArray])
+
+// console.log(Array.from("Osama", char => char.toUpperCase())) // ["O", "S", "A", "M", "A"]
+// let arr = [1,2,3,4,5]
+// let newarr = [7,8,19] // [1,2,3,4,5]
+
+// let arr2 = [...arr,...newarr] // [1,2,3,4,5,7,8,19]
+// console.log(arr2)
